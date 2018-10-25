@@ -1,0 +1,27 @@
+// VARIABLES
+$type-base: "Lato", Helvetica, Arial, sans-serif;
+$type-heading: "Permanent Marker",Georgia, serif;
+$type-linewidth: 38em;
+$type-color: #333;
+$type-color-lightgrey: rgba(0,0,0,.5);
+
+//COLOR
+$link-color: blue;
+$link-color-dark: purple;
+$accent-color:red;
+$type-color-headings: #000;
+$color-hero-bg: green;
+
+//BREAKPOINTS
+$breakpoint-small: 768px;
+$breakpoint-medium: 1050px;
+$breakpoint-large: 1250px;
+
+
+@import "partials/toc";
+@import "partials/typography";
+@import "partials/components";  
+@import "partials/layout";  
+@import "partials/structure";
+@import "partials/site-navigation-menu-button";
+
