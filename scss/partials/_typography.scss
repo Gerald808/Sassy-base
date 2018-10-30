@@ -1,0 +1,50 @@
+body{
+    font-family: $type-base;
+    font-size: 100% ;
+    line-height: 1.5em;
+    color: $type-color-body;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:$type-heading;
+}
+
+h1{ font-size: 3em; line-height: 1em;}
+h2{ font-size: 2.15em; line-height: 1.1em;}
+h3{ font-size: 1.5em; line-height: 1.2em;}
+h4{ font-size: 1.3125em; line-height: 1.3em;}
+h5{ font-size: 1.125em; line-height: 1.4em;}
+h6{ font-size: 1em; line-height: 1.5em;}
+
+p{
+    margin: 0 0 .5em 0;
+    max-width: 38em;
+}
+
+hr{
+    border: 0;
+    height: 1px;
+    margin: 3m 0;
+    background: #ddd;
+}
+
+.heading {
+    font-size: 4em;
+    color: $accent-color;
+    margin: 0;
+}
+
+.subheadiung {
+    font-family: $type-base;
+    font-size: 2.5em;
+    font-weight: normal;
+    color: $type-color-lightgrey;
+    margin: 0.25em 0 0.5em 0;
+
+}
+
+.meta {
+    font-size: .875em;
+    color: $type-color-lightgrey;
+    margin-bottom: 1.5em;
+}

@@ -1,0 +1,28 @@
+/*component*/
+
+// Buttons
+
+a.button,
+.button {
+    font-size: 1em;
+    display: inline-block;
+    background-color: $link-color;
+    border:1px solild $link-color;
+    color: #fff;
+    padding: .75em 1em;
+    border-radius: .37em;
+    margin-top: .5em;
+    text-decoration: none;
+
+    &:hover{
+        background-color: pink;
+        color: #fff;
+        border-color: $link-color;
+    }
+
+    &.alt{
+        background-color: $link-color;
+        color: #fff;
+        border-color: $link-color-dark;
+    }
+}

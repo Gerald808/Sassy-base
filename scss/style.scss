@@ -1,0 +1,25 @@
+/* VARIABLE */
+$colorbackground: #78866b;
+$type-base : "Lato", Helvetica, Arial, sans-serif;
+$type-heading: "Permanent Marker",Georgia, serif;
+$type-linewidth: 39em;
+$type-color-body: #333;
+$type-color-heading:#000;
+$type-color-lightgrey: rgba(0,0,0,.5);
+$accent-color: pink;
+$link-color: blue;
+$link-color-dark: purple;
+
+body{
+    background-color: $colorbackground;
+}
+ 
+$breakpoint-small: 768px;
+$breakpoint-medium: 992px;
+$breakpoint-large: 1250px;
+
+
+@import "partials/toc";
+@import "partials/typography";
+@import "partials/components";
+@import "partials/layout";
